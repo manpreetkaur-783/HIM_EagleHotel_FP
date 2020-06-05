@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Management</title>
-    
-    
+    <link rel="stylesheet" href="css/main.css" />
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   </head>
   <body>
     <div id="container">
@@ -51,6 +51,29 @@ OF LUXURY AND COMFORT.</h2>
           <div class="clearfix"></div>
         </div>
       </section>
+      <section class="service-section">
+        <div class="main-content">
+          <div class="main-row">
+            <h2 class="title">Our Services</h2> <a href="rooms.html" class="btn">Book Now</a>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="services">
+            <div class="service-image">
+            <a href="rooms.html"><img src="image/room.jpg"></a>
+            <a href="rooms.html"><p>Delux Rooms</p></a>
+          </div>
+          <div class="service-image">
+            <a href="fitness-center.html"><img src="image/fitness-center1.jpg"></a>
+            <a href="fitness-center.html"><p>Fitness Center</p></a>
+          </div>
+          <div class="service-image" style="margin-right: 0px;">
+            <a href="dining.html"><img src="image/dining.jpg"></a>
+            <a href="dining.html"><p>Dining</p></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
       <div class="clearfix"></div>
       </section>
       <section class="gallery-section desktop-view">
@@ -96,7 +119,20 @@ OF LUXURY AND COMFORT.</h2>
             <p><i class="fa fa-phone" aria-hidden="true"></i><span>&nbsp;&nbsp; <a href="tel:+1437-755-4082">+1437-755-4082</a></span></p>
             <p><i class="fa fa-envelope" aria-hidden="true"></i><span>&nbsp;&nbsp; <a href="mailto:manpreetjohal513@gmail.com">manpreetjohal513@gmail.com </a></span></p>
           </div>
-          
+          <div class="col-form">
+            <h1>Contact Us</h1>
+            <form method="post" action="#">
+              <label for="name">Name <font color="#fff">*</font></label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email <font color="#fff">*</font></label>
+              <input type="email" id="email" name="email" required>
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject">
+              <label>Message <font color="#fff">*</font></label>
+              <textarea required></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
       </div>
         <div class="clearfix"></div>
       </section>
