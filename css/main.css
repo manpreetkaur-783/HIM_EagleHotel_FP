@@ -64,6 +64,14 @@ header
 	padding:10px 20px;
 	margin-right:20px;
 }
+ .btn-user
+        {
+           
+    color: #333;
+    padding: 5px 5px;
+    margin-right:5px;
+    font-size:12px;
+        }
 .active
 {
 	background-color:#881f26;
@@ -89,7 +97,7 @@ nav a {
   display: block;
   text-align: center;
   color:#881f26;
-  padding: 14px 40px;
+  padding: 14px 30px;
   margin-right: 4px;
   text-decoration: none;
 }
